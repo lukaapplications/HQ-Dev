@@ -4,7 +4,7 @@ public class Player {
 
     // Basic info
     public String Name;
-    public long ID;
+    public long Id;
 
     // Attributes
     public int Intelligence = 1;
@@ -15,6 +15,6 @@ public class Player {
 
     @Override
     public  String toString() {
-        return String.format("%s [%d]; int=%d; str=%d; chr=%d; g=%d; e=%d", Name, ID, Intelligence, Strength, Charisma, Good, Evil);
+        return String.format("%s [%d]; int=%d; str=%d; chr=%d; g=%d; e=%d", Name, Id, Intelligence, Strength, Charisma, Good, Evil);
     }
 }
